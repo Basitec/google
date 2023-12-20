@@ -228,7 +228,7 @@ div.inner{
     margin: 0px 10px;
 }
 }
-@media((min-width: 288.75590551px)){
+@media((min-width: 288px)){
     textarea{
          width: 5em;
     }
