@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #14539a;
+    
+}
+div.inner{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #000; */
+    width: 12em;
+    /* height: 12em; */
+    padding: 1em 0;
+    align-items: center;
+    /* margin: 0 0 0 65em; */
+    position: relative !important;
+}
+div.inner a{
+    text-decoration: none;
+    color: #fff;
+    font: 13px/27px Roboto,Arial,sans-serif;
+}
+div.a a:hover{
+    text-decoration: underline;
+}
+div.a img{
+    /* background-color: #5c6bc0; */
+    /* padding: 10px; */
+    /* height: 40px;
+    width: 40px; */
+    /* padding: 1em 2px 0; */
+    border-radius: 50%;
+    padding: 0.3em;
+    /* text-align: center; */
+}
+div.a img:hover{
+    background-color: #666;
+    border-radius: 50%;
+
+}
+div.inner{
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    margin: 0px 10px;
+}
+input{
+    padding: 1.2em 0em 1.2em 3em;
+    width: 40em;
+    border-radius: 50px;
+    border: none;
+}
+
+input::placeholder{
+    padding: 0px 5px;
+}
+h1{
+   color: #fff;
+   font-family: Roboto,Arial,sans-serif;
+   font-size: 5em;
+   text-align: center;
+   padding: 2.5em 0px 0.5em;
+}
+/* i{
+    position: relative;
+    left: 2.5em;
+} */
+/* div.search img{
+    width: 2em;
+    position: relative;
+    top: 10px;
+    right: 7em;
+} */
+/* div.search{
+    /* background-color: #fff; 
+    width: 47em;
+    margin: 20px 0px 20px 20em;
+} */
+div.ab{
+    cursor: pointer;
+    width: 7.7em;
+    padding: 1em 0px;
+    text-align: center;
+    border-radius: 5px;
+    /* margin: 0 -1em; */
+    /* background-color: #000088; */
+}
+div.shortcut{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* background-color: #fff; */
+    width: 25em;
+    margin: -2em auto;
+    /* gap: -2em; */
+}
+div.ab img{
+    /* height: 4em; */
+    width: 2.5em;
+    /* background-color: #10427b;
+    border-radius: 50%;*/
+    padding: 0.4em 0 0; 
+}
+div.pex{
+    width: 2.8em ;
+    height: 2.8em;
+    border-radius: 50%;
+    background-color: #10427b;   
+    margin: 0px auto 10px;
+}
+div.ab img.face{
+    width: 1.5em;
+    padding: 9px 0px 0;
+}
+div.ab img.ama{
+    width: 1.5em; 
+    padding: 10px 0px 0;
+    /* border-radius: 50%; */
+}
+div.ab img.insta{
+    width: 1.5em;
+    padding: 9px 0px 0;
+}
+div.ab img.you{
+    width: 1.5em;
+    padding: 13px 0px 0;
+}
+div.ab p{
+    color: #fff;
+    font-family: Roboto,Arial,sans-serif;
+}
+div.ab:hover{
+    background-color: #2c65a4;  
+
+}
+/* input[type="text" i] {
+    writing-mode: horizontal-tb !important;
+    padding-block: 1.2em 25em 1.2em 2em ;
+    padding-inline: 2px;
+} */
+textarea{
+    border-radius: 50px;
+    border: none;
+    /* position: relative;
+    top: 2px; */
+    /* width: 38em; */
+    padding: 1em 6em 1em 3em;
+    resize: none;
+    border: none;
+    outline: none;
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    /* background-color: #000; */
+}
+textarea:hover{
+    box-shadow: 5px 5px 10px #444;
+}
+div.text{
+    /* /* background-color: #3344ff; */
+    width: 38em; 
+    border-radius: 50px;
+    margin: 0 auto;
+}
+div.text  img{
+    width: 2em;
+    position: relative;
+    top: -40px;
+    right: -30em;
+}
+div.text i{
+    position: relative;
+    top: -16px;
+    left: -35em;
+}
+/* div.stock{
+    display: inline;
+} */
+div.ab i{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+@media((min-width: 375px) and (max-width: 768px)){
+    /* *{
+        box-sizing: border-box;
+    } */
+/* div.gmail{
+    margin: 0 0 0 18em;
+} */
+textarea{
+    width: 22em;
+    border: none;
+    outline: none;
+}
+div.text{
+     /* background-color: #3344ff; */
+    width: 25em; 
+    border-radius: 50px;
+    margin: 3px auto;
+}
+div.shortcut{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+     /* background-color: #fff;  */
+    width: 20em;
+    /* display: none; */
+}
+div.text img{
+    position: relative;
+    left: 18.5em;
+    top: -39px;
+}
+div.text img.micro{
+    position: relative;
+    left: 18.3em;
+    top: -37px;
+}
+div.text i{
+    top: -51px;
+    left: 0.8em;
+}
+div.inner{
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    margin: 0px 10px;
+}
+}
